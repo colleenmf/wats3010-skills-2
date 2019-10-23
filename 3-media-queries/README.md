@@ -41,7 +41,9 @@ We'll learn some additional techniques to achieve both horizontal layout for lar
 ```
 1. Add a media query for screens >= 700 px and make the background color light blue for larger screens.  Once you've added this style, use dev tools to test the effect of larger and smaller screen sizes on background color.  A sample media query with background color is below. Notice that `min-width` is used to apply styles for screens sizes that are greater than the supplied value.  What property might you use for **Graceful Degradation**?
 ```
-
+@media only screen and (min-width: 700px) {body {
+  background-color: lightblue;
+}
 ```
 2. Move all properties that create a horizonal layout of list items into the media query.  There should just be two properties that move into the media query: the `display:inline-block` and the `width: 19%`.
 Add the following to your media query:
