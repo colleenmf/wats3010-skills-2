@@ -12,11 +12,7 @@ Back in 2006,  there was a common layout that involved a header, a footer, a top
 
 1. Begin the assignment by adding a style sheet to index.html file provided.  Reset some of the properties as follows:
 ```
- * {
-      box-sizing: border-box;
-      padding: 0;
-      margin: 0;
-    }
+ 
 ```
 2. Set the height of the document to the full height of the screen:
 ```
