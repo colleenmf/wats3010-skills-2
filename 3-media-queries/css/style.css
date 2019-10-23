@@ -29,7 +29,7 @@
             width: 19%;
             display: inline-block;
           }
-
+        }
       :root {
         --odd-color: rgb(219, 16, 50);
         --odd-bg-color:rgb(12, 11, 11);
@@ -45,3 +45,4 @@
         color: var(--odd-color);
         background-color: var(--odd-bg-color);
       }
+    
