@@ -55,9 +55,9 @@ Start by adding a css file to the index.html and creating and linking a css file
 ```
 8. Provide some footer styling.
 ```
-footer {
-      margin: 30px 0;
-    }
+ footer { 
+   margin: 30px 0;
+ }
 ```
 
 View your work on a large screen and using dev tools, on a mobile screen.  Notice that the browser creates a single column on smaller screens without specifying a rule.
@@ -74,3 +74,4 @@ View your work on a large screen and using dev tools, on a mobile screen.  Notic
 
 ### Small Screen
 ![Small Screen](images/column-mobile.png)
+px :
